@@ -1,17 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-.work-sans-font{
+.work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+/* ---shared styles--- */
+
+.text-color-gray{
+  color: #727272;
+
+}
+
+.btn-primary {
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+   background-color: #FF900E;
+  font-size: 1.2rem;
+  padding: 20px 24px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.bg-color {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* ---navbar styles--- */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.nav-links {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-items {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.navbar, .banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+/* banner secrtion   */
+.banner-container{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.banner-title {
+ font-weight: 700;
+  font-size: 4rem;
+ color: #131313;
+
+  
+}
+
+.banner-image{
+  width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .display-flex {
+    
+      flex-direction: column;
+}
+
+
+  
 }
 
