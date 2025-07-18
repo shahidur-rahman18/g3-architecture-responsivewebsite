@@ -174,12 +174,8 @@ color: rgb(255, 144, 14);
     margin-top: 20px;
       padding: 0 10px;
    }
-
-   .banner-container{
-     
-    
-   }  
-   .banner-description{
+ 
+   .banner-description, .our-features p{
     margin: 20px 0;
    }
    
@@ -232,10 +228,7 @@ color: rgb(255, 144, 14);
       padding: 0 10px;
    }
 
-   .banner-container{
-     
-    
-   }  
+  
    .banner-description{
     margin: 20px 0;
    }
@@ -252,6 +245,11 @@ color: rgb(255, 144, 14);
    .team-img-container{
     grid-template-columns: repeat(2, 1fr);
    }
+
+   .banner-description, .our-features p{
+    margin: 20px 0;
+   }
+   
 
   
 }
