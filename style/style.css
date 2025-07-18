@@ -61,6 +61,11 @@ color: rgb(255, 144, 14);
   background: rgba(255, 144, 14, 0.1);
 }
 
+
+.banner-description, .our-features p{
+    margin: 20px 0;
+   }
+
 /* ---navbar styles--- */
 .navbar {
   justify-content: space-between;
